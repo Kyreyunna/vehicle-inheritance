@@ -5,4 +5,5 @@ public class Moped extends Vehicle{
 
         return true;
     }
+
 }
