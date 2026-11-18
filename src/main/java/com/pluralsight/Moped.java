@@ -6,4 +6,8 @@ public class Moped extends Vehicle{
         return true;
     }
 
+//    public void setColor(String color) {
+//        super(color);
+//    }
+
 }
