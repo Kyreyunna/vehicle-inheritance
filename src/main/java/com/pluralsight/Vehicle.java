@@ -42,4 +42,14 @@ public class Vehicle {
     public void setFuelCapacity(int fuelCapacity) {
         this.fuelCapacity = fuelCapacity;
     }
+
+    @Override
+    public String toString() {
+        return "Vehicle Information{" +
+                "color='" + color + '\'' +
+                ", numberOfPassengers=" + numberOfPassengers +
+                ", cargoCapacity=" + cargoCapacity +
+                ", fuelCapacity=" + fuelCapacity +
+                '}';
+    }
 }
