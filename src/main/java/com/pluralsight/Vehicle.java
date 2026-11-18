@@ -11,13 +11,6 @@ public class Vehicle {
         this.fuelCapacity = fuelCapacity;
     }
 
-    public Vehicle() {
-
-    }
-
-    ////TO DO: constructor
-
-
     public String getColor() {
         return color;
     }

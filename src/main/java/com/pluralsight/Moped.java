@@ -1,13 +1,12 @@
 package com.pluralsight;
 
 public class Moped extends Vehicle{
-    private boolean hasHandles(){
-
-        return true;
+    public Moped(String color, int numberOfPassengers, int cargoCapacity, int fuelCapacity) {
+        super(color, numberOfPassengers, cargoCapacity, fuelCapacity);
     }
 
-//    public void setColor(String color) {
-//        super(color);
-//    }
+    private boolean hasHandles(){
+        return true;
+    }
 
 }
